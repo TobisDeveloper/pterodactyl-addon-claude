@@ -1,0 +1,15 @@
+{
+  "name": "blueprint-marketplace",
+  "owner": { "name": "Local" },
+  "metadata": {
+    "description": "Local marketplace hosting the Pterodactyl Blueprint extension developer plugin",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "pterodactyl-blueprint-dev",
+      "source": "./plugins/pterodactyl-blueprint-dev",
+      "description": "Develop Pterodactyl Blueprint extensions with official docs bundled as ground truth"
+    }
+  ]
+}

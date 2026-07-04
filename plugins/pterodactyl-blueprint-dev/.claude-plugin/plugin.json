@@ -1,0 +1,8 @@
+{
+  "name": "pterodactyl-blueprint-dev",
+  "version": "1.0.0",
+  "description": "Develop Pterodactyl Blueprint extensions with the official Blueprint documentation bundled as ground truth. Prevents hallucinated APIs, enforces the correct stack (PHP/Laravel backend, Blade admin UI, React+TypeScript client UI, YAML configs), and audits extensions before packaging.",
+  "author": { "name": "Built with Claude" },
+  "homepage": "https://blueprint.zip/docs",
+  "keywords": ["pterodactyl", "blueprint", "extension", "panel", "laravel", "react"]
+}
