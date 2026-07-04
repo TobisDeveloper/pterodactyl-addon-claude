@@ -1,0 +1,37 @@
+info:
+  name: "[name]"
+  identifier: "[identifier]"
+  description: "[description]"
+  flags: ""
+  version: "[ver]"
+  target: "[version]"
+  author: "[author]"
+  icon: ""
+  website: ""
+
+admin:
+  view: "view.blade.php"
+  controller: ""
+  css: ""
+  wrapper: ""
+
+dashboard:
+  css: ""
+  wrapper: ""
+  components: "components"
+
+data:
+  directory: ""
+  public: ""
+  console: ""
+
+requests:
+  views: ""
+  app: ""
+  routers:
+    application: ""
+    client: ""
+    web: ""
+
+database:
+  migrations: ""

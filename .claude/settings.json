@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "blueprint-marketplace": {
+      "source": {
+        "source": "directory",
+        "path": "./blueprint-marketplace"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "pterodactyl-blueprint-dev@blueprint-marketplace": true
+  }
+}
