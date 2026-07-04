@@ -1,0 +1,16 @@
+# Learn more about the Components API:
+# https://blueprint.zip/docs/configs/componentsyml
+
+Navigation:
+  NavigationBar: 
+    AdditionalItems: "elements/PlaceholderComponent"
+  Routes:
+    - { Name: "Example", Path: "/example", Type: "server", Component: "sections/ExampleSection", AdminOnly: "false" }
+
+Dashboard:
+  ServerRow:
+    ResourceLimits: "elements/TestElement"
+
+Authentication:
+  Container:
+    AfterContent: "elements/TestElement"
